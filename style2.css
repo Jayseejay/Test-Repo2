@@ -1,9 +1,28 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
 h2 {
-    font-weight: bold;
-};
+    font-weight: lighter;
+}
 .aboutme{
-    font-family: Arial;
+    display: flex;
+    align-items: center;
 }
 h3 {
     font-weight: bold;
+}
+body > div {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+.container {
+    width: 95vw;
+    padding: 10px;
 }
